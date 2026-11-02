@@ -4,6 +4,8 @@
 #[cfg(target_os = "android")]
 mod android;
 mod game;
+mod touch;
+mod touch_buttons;
 
 use horizon_client::{crash, logging};
 
